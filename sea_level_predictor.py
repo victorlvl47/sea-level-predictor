@@ -12,6 +12,9 @@ def draw_plot():
     # Create scatter plot
     plt.scatter(df['Year'], df['CSIRO Adjusted Sea Level'],
                 c=df['CSIRO Adjusted Sea Level'], cmap='viridis_r')
+    plt.title("Rise in Sea Level")
+    plt.xlabel("Year")
+    plt.ylabel("Sea Level (inches)")
     # FIX ME: Quick hack call colorbar() once.
     global called_colorbar
     if not called_colorbar:
