@@ -26,7 +26,7 @@ def draw_plot():
     x_fit = np.linspace(min_year, proyected_year)
     y_fit = x_fit * lin_out[0] + lin_out[1]
 
-    plt.plot(x_fit, y_fit, color="red", label='best fitted line')
+    plt.plot(x_fit, y_fit, color="red", label='best fitted line to predict \nthe sea level rise in 2050.')
 
     # Create second line of best fit
 
